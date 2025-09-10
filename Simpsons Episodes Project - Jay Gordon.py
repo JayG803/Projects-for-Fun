@@ -96,9 +96,7 @@ episodes = [
         "characters": ["Mr. Burns", "Smithers", "Homer", "Marge", "Bart", "Lisa", "Maggie"],
         "scenes": ["Mr. Burns loses his teddy bear Bobo", "Maggie adopts Bobo"]
     }
-]
 
-# --- Functions ---
 
 def filter_by_character(name):
     """Find episodes featuring a specific character."""
@@ -165,7 +163,6 @@ def quiz():
     except:
         print("Invalid choice!")
 
-# --- Main Menu ---
 def main():
     while True:
         print("\n--- The Simpsons Quiz ---")
@@ -206,3 +203,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
